@@ -1,0 +1,13 @@
+{
+    "user_name": "Mr. Bhattacharjee",
+    "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "email": {
+        "address": "your_email@gmail.com",
+        "password": "your_app_password",
+        "imap_server": "imap.gmail.com",
+        "smtp_server": "smtp.gmail.com"
+    },
+    "whisper_model": "base",
+    "use_whisper": false,
+    "gemini_api_key": "YOUR_API_KEY_HERE"
+}

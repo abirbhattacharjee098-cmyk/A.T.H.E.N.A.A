@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi there", "hey", "good morning", "is anyone there"],
+      "responses": ["Hello Sir!", "Good to see you!", "I am here. How can I assist?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "goodbye", "exit", "quit", "stop", "shut down"],
+      "responses": ["Goodbye, Mr. Bhattacharjee. Shutting down systems..."]
+    },
+    {
+      "tag": "sleep",
+      "patterns": ["go to sleep", "pause", "stop listening", "sleep"],
+      "responses": ["Going to sleep. Say 'wake up athena' when you need me."]
+    },
+    {
+      "tag": "open_app",
+      "patterns": ["open notepad", "launch calculator", "start brave", "open brave", "start chrome", "open application"],
+      "responses": ["Opening it for you now.", "Launching application."]
+    },
+    {
+      "tag": "search",
+      "patterns": ["search google for", "look up", "can you search", "google this"],
+      "responses": ["Searching the web for you."]
+    },
+    {
+      "tag": "clear_text",
+      "patterns": ["delete files in a notepad", "clear the text", "select all and delete", "delete everything"],
+      "responses": ["Clearing the text now.", "Deleting everything."]
+    },
+    {
+      "tag": "read_screen",
+      "patterns": ["what am i looking at", "read my screen", "read screen", "what is on my screen"],
+      "responses": ["Analyzing the screen for you..."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "tell me the time", "current time"],
+      "responses": ["Retrieving the time."]
+    },
+    {
+      "tag": "whatsapp",
+      "patterns": ["send a whatsapp", "message someone on whatsapp", "send a message on whatsapp"],
+      "responses": ["Preparing to send a WhatsApp message."]
+    }
+  ]
+}

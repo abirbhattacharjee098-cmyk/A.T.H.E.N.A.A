@@ -1,0 +1,13 @@
+openai-whisper
+SpeechRecognition
+pyttsx3
+pyautogui
+selenium
+webdriver-manager
+pywhatkit
+opencv-python
+pytesseract
+numpy
+pillow
+torch
+nltk
